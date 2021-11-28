@@ -20,7 +20,7 @@ html{
     text-align: right;
     height: 50px;
     font-size: 1.8rem;
-    color:var(--color-text);
+    color: var(--color-text);
     background: var(--bg);
     white-space: nowrap;
     overflow-y: hidden;
