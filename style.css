@@ -14,6 +14,30 @@ html{
     --btn-active: #bcbfc2;
 }
 
+html[data-theme ='dark']{
+    --bg: #2d2e2f;
+    --color-text: #fff;
+    --color-border: #6c7073;
+    --btn-active: #424548;
+}
+
+/* Heading */
+.heading{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 .8rem .4rem;
+}
+.heading span{
+    color: var(--color-text);
+    font-size: 1.3rem;
+}
+.fas {
+    cursor: pointer;
+}
+label input[type="checkbox"]{
+    -webkit-appearance: none;
+}
 /* Main */
 #result{
     padding: .5rem 1rem 0rem;
@@ -28,11 +52,11 @@ html{
 }
 .container-grid{
     padding: 5rem 0;
-    max-width:300px;
+    max-width: 300px;
     width: 100%;
     margin: 0 auto;
     display: grid;
-    grid-template-rows: 1fr 5fr;
+    grid-template-rows: .5fr 1fr 5fr;
 }
 .calculate{
     border-top: 1px solid var(--color-border);

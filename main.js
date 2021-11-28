@@ -20,3 +20,13 @@ function undo() {
     let res = result.innerHTML;
     result.innerHTML = res.substring(0, res.length - 1);
 }
+
+// Dark & Light Mode
+let checkbox= document.querySelector('input[name=theme]');
+checkbox.addEventListener('change',function(){
+    if(this.checked){
+        document.documentElement.setAttribute('data-theme','dark');
+    } else {
+        document.documentElement.setAttribute('data-theme', 'light');
+    }
+})
