@@ -97,4 +97,20 @@ label input[type="checkbox"]{
     background:var(--btn-active) ;
     cursor: pointer;
 }
+#history {
+    display: none;
+    position: absolute;
+    z-index: 9999;
+    background: #5d4196;
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 400;
+    padding: .5rem;
+    margin-top: .5rem;
+    line-height: 1.5rem;
+}
 
+/* class hiển thị history */
+.indexHistory {
+    display: block !important;
+}
